@@ -1,0 +1,79 @@
+.block{
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border: solid 2px black;
+    margin: -3px;
+    cursor: pointer;
+    background-color:#773A85;
+    transition: .15s ease-in;
+    opacity: .9;
+    background-image: url("boom.png");
+    background-size: 0 0;
+    
+}
+
+.block:hover{
+    opacity: .6;
+}
+
+h1{font-size: 50px;}
+
+#grid{
+    width: 550px;
+    margin: auto;
+	margin-top: 20px;
+    
+}
+
+body{
+    background-image: url("ship.jpg");
+    background-size: cover;
+    color: #0F082E;
+    
+    font-family: "Impact", "Times New Roman", Times;
+}
+h1{
+    text-align: center;
+    
+}
+#message{
+   text-align: center;
+   font-size: 25px;
+}
+
+#missles{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 250px;
+}
+#sunk{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 250px;
+    
+}
+#sunk p{
+    margin-top: -15px;
+}
+#sunk h4{
+    text-decoration: underline;
+}
+
+#restart{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    height: 100px;
+    width: 150px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: 3px solid #0F082E;
+}
+
+#restart:hover{
+    box-shadow: 3px 3px 9px rgb(40,40,40);
+}
